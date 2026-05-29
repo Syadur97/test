@@ -907,6 +907,6 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then(buf => {
-  fs.writeFileSync("/mnt/user-data/outputs/BloomBee_Anniversary_Gift_Boxes.docx", buf);
+  fs.writeFileSync("BloomBee_Anniversary_Gift_Boxes.docx", buf);
   console.log("Done!");
 });
